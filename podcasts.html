@@ -3,12 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Audio - Books</title>
+    <title>Beige and Brown</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="BeatX - Multipurpose Audio Podcast and Music HTML Template" />
-    <meta name="author" content="Softcircles">
+    <meta name="description" content="Beige and Brown" />
+    <meta name="author" content="Beige and Brown">
     <meta name="keywords" content="" />
-    <link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
@@ -16,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/flaticon.css">
     <link rel="stylesheet" type="text/css" href="css/maudio.css">
+    <link rel="stylesheet" type="text/css" href="css/jplayer.blue.monday.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/color.css">
     <link rel="stylesheet" type="text/css" href="css/rtl.css">
@@ -46,7 +46,7 @@
                             </ul>
                         </div>
                         <div class="col-xl-4 col-lg-5 col-md-6 mll-auto">
-                            <a href="login-register.html" title="" class="login"><i class="flaticon-user"></i>Login or
+                            <a href="#" title="" class="login"><i class="flaticon-user"></i>Login or
                                 Register</a>
                             <ul class="social-links">
                                 <li><a href="#" title=""><i class="fab fa-facebook-f"></i></a></li>
@@ -62,14 +62,16 @@
                 <div class="container">
                     <div class="header-content">
                         <div class="logo">
-                            <a href="index.html" title=""><img src="images/logo.png" alt=""></a>
+                            <a href="index.html" title="">
+                                <p class="dummy_logo2">Beige and Brown</p>
+                            </a>
                         </div><!--logo end-->
                         <nav>
                             <ul>
                                 <li><a class="" href="index.html" title="">Home</a> </li>
                                 <li><a href="podcasts.html" title="">Audio Books</a></li>
                                 <li><a href="#" title="">Blog</a> </li>
-                                <li><a href="contact.html" title="">Contact</a></li>
+                                <li><a href="#" title="">Contact</a></li>
                             </ul>
                         </nav><!--nav end-->
                         <a href="#" title="" class="menu-btn"><img src="images/bars.png" alt=""></a>
@@ -89,7 +91,7 @@
                 <li><a href="index.html" title="">Home</a></li>
                 <li><a href="podcasts.html" title="">Audio Books</a> </li>
                 <li><a href="#" title="">Blog</a></li>
-                <li><a href="contact.html" title="">Contact</a></li>
+                <li><a href="#" title="">Contact</a></li>
             </ul>
             <ul class="social-links">
                 <li><a href="#" title=""><i class="fab fa-facebook-f"></i></a></li>
@@ -98,11 +100,82 @@
                 <li><a href="#" title=""><i class="fab fa-dribbble"></i></a></li>
             </ul>
             <div class="rep-copyright">
-                <p>Copyright © 2020 <a href="#" title="">Softcircles</a> All Rights Reserved.</p>
+                <p>Copyright © 2020 <a href="#" title="">Beige and Brown</a> All Rights Reserved.</p>
             </div><!--rep-copyright end-->
         </div><!--responsive-mobile-menu end-->
 
-
+        <!--  MUSIC PLAYER -->
+        <a href="#" title="" class="remove-music-player v2"><i class="fa fa-angle-up"></i></a>
+        <div class="beatx-playyer fixed-player">
+            <a href="#" title="" class="remove-music-player"><i class="fa fa-angle-down"></i></a>
+            <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+            <div class="container-fluid">
+                <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                    <div class="jp-type-playlist">
+                        <div class="jp-gui jp-interface align-items-center">
+                            <div class="musicc-controls">
+                                <div class="row align-items-center">
+                                    <div class="col-xl-4">
+                                        <div class="song-title">
+                                            <h2 class="jp-title"></h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-4">
+                                        <div
+                                            class="jp-controls d-flex flex-wrap align-items-center justify-content-end">
+                                            <button class="jp-previous" role="button" tabindex="0"><i
+                                                    class="flaticon-backward-arrows-couple-pointing-to-left"></i></button>
+                                            <button class="jp-play" role="button" tabindex="0"><i
+                                                    class="fa fa-play"></i></button>
+                                            <button class="jp-next" role="button" tabindex="0"><i
+                                                    class="flaticon-fast-forward"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-5 col-lg-8 text-right">
+                                        <div class="controls-sc">
+                                            <div class="jp-progress">
+                                                <div class="jp-seek-bar">
+                                                    <div class="jp-play-bar"></div>
+                                                </div>
+                                            </div>
+                                            <div class="jp-time-holder">
+                                                <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                                                <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                                            </div>
+                                            <div class="jp-toggles">
+                                                <button class="jp-repeat" role="button" tabindex="0"><i
+                                                        class="fa fa-redo-alt"></i></button>
+                                                <button class="jp-shuffle" role="button" tabindex="0"><i
+                                                        class="fa fa-random"></i></button>
+                                            </div>
+                                            <div class="jp-volume-controls">
+                                                <!-- <button class="jp-mute" role="button" tabindex="0"><i class="fa fa-volume-off"></i></button> -->
+                                                <div class="jp-volume-bar">
+                                                    <div class="jp-volume-bar-value"></div>
+                                                </div>
+                                                <button class="jp-mute" role="button" tabindex="0"><i
+                                                        class="fa fa-volume-up"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jp-playlist">
+                            <h3>Episodes</h3>
+                            <ul>
+                                <li>&nbsp;</li>
+                            </ul>
+                        </div>
+                        <div class="jp-no-solution">
+                            <span>Update Required</span>
+                            To play the media you will need to either update your browser to a recent version or update
+                            your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--beatx-music-player end-->
 
         <section class="pager-section">
             <div class="fixed-bg pager-bg"></div>
@@ -117,7 +190,7 @@
             </div>
         </section><!--pager-section end-->
 
-        <section class="block">
+        <section class="block podcast_bg">
             <div class="container">
                 <div class="page-content">
                     <div class="row">
@@ -128,9 +201,10 @@
                                         <div class="blog-post v2">
                                             <div class="blog-thumbnail">
                                                 <img src="images/resources/blog1.jpg" alt="" class="w-100">
-                                                <a href="podcast-details.html" title="" class="listen-now">
+                                                <a href="#" title="" class="listen-now  open-music-player">
                                                     Listen Now <i class="fa fa-play"></i>
                                                 </a>
+
                                             </div><!--blog-thumbnail end-->
                                             <div class="blog-info">
                                                 <ul class="pod-meta">
@@ -143,7 +217,7 @@
                                                         <a href="#" title="">10 Apr 2020</a>
                                                     </li>
                                                 </ul>
-                                                <h2><a href="podcast-details.html" title="">Anniversary of Elton John’s
+                                                <h2><a href="#" title="">Anniversary of Elton John’s
                                                         Most Popular Work</a></h2>
                                             </div><!--blog-info end-->
                                         </div><!--blog-post end-->
@@ -152,7 +226,7 @@
                                         <div class="blog-post v2">
                                             <div class="blog-thumbnail">
                                                 <img src="images/resources/blog2.jpg" alt="" class="w-100">
-                                                <a href="podcast-details.html" title="" class="listen-now">
+                                                <a href="#" title="" class="listen-now  open-music-player">
                                                     Listen Now <i class="fa fa-play"></i>
                                                 </a>
                                             </div><!--blog-thumbnail end-->
@@ -167,7 +241,7 @@
                                                         <a href="#" title="">15 Apr 2020</a>
                                                     </li>
                                                 </ul>
-                                                <h2><a href="podcast-details.html" title="">Analysis About the Most
+                                                <h2><a href="#" title="">Analysis About the Most
                                                         Exciting Audio Books</a></h2>
                                             </div><!--blog-info end-->
                                         </div><!--blog-post end-->
@@ -176,7 +250,7 @@
                                         <div class="blog-post v2">
                                             <div class="blog-thumbnail">
                                                 <img src="images/resources/blog3.jpg" alt="" class="w-100">
-                                                <a href="podcast-details.html" title="" class="listen-now">
+                                                <a href="#" title="" class="listen-now  open-music-player">
                                                     Listen Now <i class="fa fa-play"></i>
                                                 </a>
                                             </div><!--blog-thumbnail end-->
@@ -191,7 +265,7 @@
                                                         <a href="#" title="">10 Apr 2020</a>
                                                     </li>
                                                 </ul>
-                                                <h2><a href="podcast-details.html" title="">A short wave goodbye for my
+                                                <h2><a href="#" title="">A short wave goodbye for my
                                                         good friend</a></h2>
                                             </div><!--blog-info end-->
                                         </div><!--blog-post end-->
@@ -200,7 +274,7 @@
                                         <div class="blog-post v2">
                                             <div class="blog-thumbnail">
                                                 <img src="images/resources/blog4.jpg" alt="" class="w-100">
-                                                <a href="podcast-details.html" title="" class="listen-now">
+                                                <a href="#" title="" class="listen-now  open-music-player">
                                                     Listen Now <i class="fa fa-play"></i>
                                                 </a>
                                             </div><!--blog-thumbnail end-->
@@ -215,7 +289,7 @@
                                                         <a href="#" title="">15 Apr 2020</a>
                                                     </li>
                                                 </ul>
-                                                <h2><a href="podcast-details.html" title="">Goodbye for my good friend
+                                                <h2><a href="#" title="">Goodbye for my good friend
                                                         Francisco</a></h2>
                                             </div><!--blog-info end-->
                                         </div><!--blog-post end-->
@@ -224,7 +298,7 @@
                                         <div class="blog-post v2">
                                             <div class="blog-thumbnail">
                                                 <img src="images/resources/blog5.jpg" alt="" class="w-100">
-                                                <a href="podcast-details.html" title="" class="listen-now">
+                                                <a href="#" title="" class="listen-now  open-music-player">
                                                     Listen Now <i class="fa fa-play"></i>
                                                 </a>
                                             </div><!--blog-thumbnail end-->
@@ -239,7 +313,7 @@
                                                         <a href="#" title="">10 Apr 2020</a>
                                                     </li>
                                                 </ul>
-                                                <h2><a href="podcast-details.html" title="">Glazing handmade white china
+                                                <h2><a href="#" title="">Glazing handmade white china
                                                         pot</a></h2>
                                             </div><!--blog-info end-->
                                         </div><!--blog-post end-->
@@ -248,7 +322,7 @@
                                         <div class="blog-post v2">
                                             <div class="blog-thumbnail">
                                                 <img src="images/resources/blog6.jpg" alt="" class="w-100">
-                                                <a href="podcast-details.html" title="" class="listen-now">
+                                                <a href="#" title="" class="listen-now  open-music-player">
                                                     Listen Now <i class="fa fa-play"></i>
                                                 </a>
                                             </div><!--blog-thumbnail end-->
@@ -263,7 +337,7 @@
                                                         <a href="#" title="">15 Apr 2020</a>
                                                     </li>
                                                 </ul>
-                                                <h2><a href="podcast-details.html" title="">Lemon juice for the next
+                                                <h2><a href="#" title="">Lemon juice for the next
                                                         generations to come</a></h2>
                                             </div><!--blog-info end-->
                                         </div><!--blog-post end-->
@@ -289,6 +363,7 @@
                 </div><!--page-content end-->
             </div>
         </section>
+
 
         <section class="newsletter-sec">
             <div class="container">
@@ -355,7 +430,7 @@
                     <div class="row">
                         <div class="col-lg-3">
                             <div class="btm-logo">
-                                <img src="images/logo.png" alt="">
+                                Beige and Brown
                             </div><!--btm-logo end-->
                         </div>
                         <div class="col-lg-9">
@@ -366,8 +441,8 @@
                                 <li><a href="#" title="">Press</a></li>
                                 <li><a href="#" title="">Code of Conduct</a></li>
                             </ul><!--btm-links end-->
-                            <p class="copyright-txt"><strong>BeatX</strong> - Copyright 2020. Website by <a href=""
-                                    title="#">Softcircles</a></p>
+                            <p class="copyright-txt"><strong>Beige and Brown</strong> - Copyright 2020. Website by <a
+                                    href="" title="#">Beige and Brown</a></p>
                         </div>
                     </div>
                 </div>

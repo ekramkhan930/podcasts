@@ -2116,7 +2116,9 @@
 	}
 
 	.main-banner-hp4 {
-		padding: 175px 0 370px;
+		/* padding: 175px 0 370px; */
+		padding: 110px 0;
+
 	}
 
 	.listen-on-platforms .listen-dv>ul li {

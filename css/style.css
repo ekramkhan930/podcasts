@@ -1899,7 +1899,16 @@ div.maudio .audio-control a.fast-forward:hover:before {
 }
 
 .listen-dv {
-	margin-top: 68px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.listen_text .text {
+	color: #fff;
+	font-weight: 600;
+	margin-left: 10px;
 }
 
 .listen-dv>h3 {
@@ -1925,8 +1934,33 @@ div.maudio .audio-control a.fast-forward:hover:before {
 	margin-right: 0;
 }
 
-.listen-dv>ul li>span {
+/* .listen-dv>ul li>span {
 	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #fbfbfb;
+	text-align: center;
+	vertical-align: middle;
+} */
+.icons_row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.listen_icon {
+	text-align: center;
+}
+
+.listen_icon span {
+	display: block;
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -1940,9 +1974,16 @@ div.maudio .audio-control a.fast-forward:hover:before {
 	vertical-align: middle;
 }
 
-.listen-dv>ul li>span i:before {
+.listen_icon span i:before {
 	font-size: 24px;
+	/* font-weight: 600; */
 }
+
+
+/* .listen-dv>ul li>span i:before {
+	font-size: 24px;
+} */
+
 
 .flaticon-spotify {
 	color: #00d665;
@@ -6104,4 +6145,25 @@ iframe#twitter-widget-0 {
 
 .form_select option {
 	color: #ebab23;
+}
+
+.profile_btn_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	flex-direction: column;
+}
+
+.btn-default.date_btn {
+	background-color: #1976d3;
+}
+
+.btn-default.next_rene {
+	background-color: #ff8700;
+	margin: 10px 0;
+}
+
+.btn-default.pack_btn {
+	background-color: #1976d3;
 }

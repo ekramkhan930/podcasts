@@ -6167,3 +6167,14 @@ iframe#twitter-widget-0 {
 .btn-default.pack_btn {
 	background-color: #1976d3;
 }
+
+.plan_box {
+	margin-top: 20px;
+}
+
+.plan_box .text {
+	margin-top: 20px;
+	color: #fff;
+	font-weight: 600;
+	margin-left: 10px;
+}

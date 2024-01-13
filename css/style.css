@@ -1533,7 +1533,7 @@ div.maudio .audio-control .volume-pass {
 .copyright-txt {
 	font-size: 18px;
 	color: #333333;
-	text-align: right;
+	text-align: center;
 	font-weight: 500;
 	padding-top: 15px;
 }
@@ -6091,4 +6091,17 @@ iframe#twitter-widget-0 {
 
 .subscribe_section .packages .button:hover {
 	transform: scale(1.2);
+}
+
+.form_select {
+	border: 0;
+	outline: 0;
+	background-color: transparent;
+	padding: 2px 5px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.form_select option {
+	color: #ebab23;
 }
